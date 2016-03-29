@@ -1,0 +1,85 @@
+<!DOCTYPE:html>
+<html>
+	<head>
+		<title>Afstemning</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/ >
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="index.js"></script>
+	</head>
+<body>
+	<div id="container">
+		<h1>Vælg et parti</h1>
+		<div id="list">
+			<div class="parti" id="A">
+				<div class="myButton" id="A">A: Socialdemokraterne</div>
+			</div>
+			<div class="parti" id="B">
+				<div class="myButton" id="B">B: Radikale Venstre</div>
+			</div>
+			<div class="parti" id="C">
+				<div class="myButton" id="C">C: Konservative Folkeparti</div>
+			</div>
+			<div class="parti" id="F">
+				<div class="myButton" id="F">F: Socialistisk Folkeparti</div>
+			</div>
+			<div class="parti" id="I">
+				<div class="myButton" id="I">I: Liberal Alliance</div>
+			</div>
+			<div class="parti" id="K">
+				<div class="myButton" id="K">K: Kristendemokraterne</div>
+			</div>
+			<div class="parti" id="O">
+				<div class="myButton" id="O">O: Dansk Folkeparti</div>
+			</div>
+			<div class="parti" id="V">
+				<div class="myButton" id="V">V: Venstre - Danmarks Liberale Parti</div>
+			</div>
+			<div class="parti" id="Ø">
+				<div class="myButton" id="Ø">Ø: Enhedslisten - De Rød-Grønne</div>
+			</div>
+			<div class="parti" id="Å">
+				<div class="myButton" id="Å">Å: Alternativet</div>
+			</div>
+		</div>
+
+		<div id="confirmPartyContainer">
+			<h2> Ønsker du at stemme på listen eller personligt? </h2>
+			<table align=center>
+				<tr>
+					<td>
+						<div id="listeListeKnap">
+							<div class="myButton" id="stemLister"> STEM PÅ LISTEN</div>
+							<img id="voteList" src="list.png" alt="Liste">
+						</div>
+					</td>
+					<td>
+						<div id="listePersonKnap">
+							<div class="myButton" id="stemPerson">STEM PERSONLIGT</div>
+							<img id="votePerson" src="person.png" alt="Person">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="listeContainer">
+		</div>
+
+		<div id="chooseMemberContainer">
+			<div id="yesToMember">
+				<div class="myButton" id="stemListe">AFGIV STEMME</div>
+			</div>
+			<div id="noToMember">
+				<div class="myButton" id="stemListe">TILBAGE</div>
+			</div>
+		</div>
+
+		<div id="nav">
+			<div class="myButton" id="blank">JEG ØNSKER AT STEMME BLANKT</div>
+			<div class="myButton" id="backToLists">TILBAGE</div>
+			<div class="myButton" id="backToPL">TILBAGE</div>
+		</div>
+	</div>
+</body>
+<html>
